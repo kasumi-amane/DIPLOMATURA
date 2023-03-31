@@ -1,0 +1,10 @@
+.header{
+    background-color: black;
+    height: 80px;
+    &_wrp{
+        display:flex;
+    }
+    &_logo{
+        width: 300px;/*ancho*/
+    }
+}

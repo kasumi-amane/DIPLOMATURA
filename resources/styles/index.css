@@ -1,0 +1,10 @@
+.header {
+  background-color: black;
+  height: 80px;
+}
+.header_wrp {
+  display: flex;
+}
+.header_logo {
+  width: 300px; /*ancho*/
+}/*# sourceMappingURL=index.css.map */
