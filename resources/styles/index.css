@@ -7,4 +7,45 @@
 }
 .header_logo {
   width: 300px; /*ancho*/
+}
+
+form {
+  background-color: #F9F9F9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+form label {
+  display: block;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+}
+form input[type=text], form input[type=email], form input[type=password], form textarea {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+form input[type=text]:focus, form input[type=email]:focus, form input[type=password]:focus, form textarea:focus {
+  outline: none;
+  border-color: #b5b5b5;
+}
+form input[type=text]:hover, form input[type=email]:hover, form input[type=password]:hover, form textarea:hover {
+  border-color: #555;
+}
+form input[type=submit] {
+  background-color: #0D6EFD;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+form input[type=submit]:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=index.css.map */
