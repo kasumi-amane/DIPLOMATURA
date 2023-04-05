@@ -1,6 +1,7 @@
 .header {
   background-color: black;
-  height: 80px;
+  height: 140px;
+  margin: 0 auto
 }
 .header_wrp {
   display: flex;
@@ -10,9 +11,9 @@
 }
 
 form {
-  background-color: #F9F9F9;
+  background-color: #a703039c;
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 2px;
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -20,7 +21,7 @@ form {
 }
 form label {
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   color: #555;
   margin-bottom: 5px;
 }
@@ -39,11 +40,12 @@ form input[type=text]:hover, form input[type=email]:hover, form input[type=passw
   border-color: #555;
 }
 form input[type=submit] {
-  background-color: #0D6EFD;
+  background-color: #69098f;
   color: #fff;
   padding: 10px 15px;
   font-size: 16px;
   border: none;
+  front-family: "calibri"
   cursor: pointer;
 }
 form input[type=submit]:hover {
